@@ -2,6 +2,23 @@
   padding: 0;
   margin: 0;
 }
-.header_logo {
-  padding: 45;
+.header {
+  margin-top: 40px;
+}
+.navigation_menu {
+  padding-top: 51px;
+}
+.top_main {
+  margin-top: 84px;
+  margin-bottom: 162px;
+}
+.main_title {
+  margin-bottom: 17px;
+}
+.main_text {
+  margin-bottom: 37px;
+}
+.top_logos {
+  padding-top: 97px;
+  padding-bottom: 96px;
 }
