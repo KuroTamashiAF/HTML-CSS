@@ -21,11 +21,50 @@ header {
 .logo_nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  width: 533px;
+  line-height: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+.first_nav_link {
+  color: #f25822;
+  font-family: "Gilroy-SemiBold";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav_link {
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 main {
   margin-bottom: 162px;
 }
+.main{
+    display: flex;
+}
+ 
+
+}
+
 footer {
   padding: 97px 0px;
+}
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url("./fonts/Gilroy-Semibold.woff2");
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("./fonts/Gilroy-Medium.woff2");
 }
