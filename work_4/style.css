@@ -80,8 +80,14 @@ main {
 }
 .start_now {
   border-radius: 50px;
+  border: none;
   background: #f25822;
   box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  line-height: normal;
 }
 .watch_video {
   color: #aaa;
@@ -97,6 +103,12 @@ main {
 footer {
   padding: 97px 0px;
 }
+
+.foot_logos {
+  display: flex;
+  justify-content: space-between;
+}
+
 @font-face {
   font-family: "Gilroy-Semibold";
   src: url("./fonts/Gilroy-Semibold.woff2");
