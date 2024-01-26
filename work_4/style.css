@@ -90,8 +90,8 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background: #fff;
   border: none;
+  background-color: #fff;
 }
 
 footer {
