@@ -9,22 +9,26 @@
 .consalting {
   padding-top: 100px;
   padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  gap: 60px;
+}
+item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .heading_item {
   color: #000;
   font-family: Gilroy-Bold;
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
-.text_item {
+.text_item_consalting {
   color: #666;
   font-family: Gilroy-Regular;
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%; /* 22.5px */
+  width: 310px;
 }
 .read_more {
   color: #000;
@@ -43,6 +47,40 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.text {
+  color: #666;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.item_box {
+}
+.main_item {
+}
+.title_item {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text_item {
+  color: #aaa;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+}
+.item_button {
+  border: none;
+  background: #fff;
 }
 
 @font-face {
