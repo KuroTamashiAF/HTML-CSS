@@ -13,13 +13,15 @@
   grid-template-columns: repeat(3, 370px);
   gap: 60px;
 }
-item {
+.item {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 .consalting_img {
   margin-bottom: 25px;
+  width: 70px;
+  height: 70px;
 }
 
 .heading_item {
@@ -47,7 +49,7 @@ item {
 .main_content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   padding-top: 92px;
   padding-bottom: 100px;
 }
@@ -57,6 +59,7 @@ item {
   font-size: 45px;
   width: 579px;
   text-align: center;
+  margin-bottom: 19px;
 }
 .text {
   color: #666;
@@ -64,6 +67,7 @@ item {
   font-family: Gilroy-Regular;
   font-size: 16px;
   width: 672px;
+  margin-bottom: 54px;
 }
 .item_box {
   display: grid;
@@ -71,6 +75,11 @@ item {
   gap: 30px;
 }
 .main_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
 }
 .title_item {
   color: #000;
@@ -79,6 +88,7 @@ item {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 22px;
 }
 .text_item {
   color: #aaa;
@@ -87,7 +97,8 @@ item {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 22.5px */
+  line-height: 150%;
+  margin-bottom: 39px;
 }
 .item_button {
   border: none;
